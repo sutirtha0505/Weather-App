@@ -5,7 +5,7 @@
 #include "weather.h"
 #include <curl/curl.h>
 
-#define API_KEY "21b18a91d326c08d5b8bbbdaf2191a36"
+#define API_KEY "your-openweather-api-key-here" // Replace with your OpenWeatherMap API key
 
 typedef struct MemoryStruct
 {
