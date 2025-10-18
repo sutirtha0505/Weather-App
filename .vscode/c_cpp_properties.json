@@ -1,0 +1,21 @@
+{
+  "configurations": [
+    {
+      "name": "mac",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "${workspaceFolder}/include",
+        "/opt/homebrew/include"        // Homebrew path on Apple Silicon
+      ],
+      "defines": [],
+      "macFrameworkPath": [
+        "/System/Library/Frameworks",
+        "/Library/Frameworks"
+      ],
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "c99",
+      "intelliSenseMode": "macos-gcc-arm64"
+    }
+  ],
+  "version": 4
+}
